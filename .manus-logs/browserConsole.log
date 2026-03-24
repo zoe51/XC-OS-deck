@@ -386,3 +386,105 @@
 [2026-03-24T13:13:32.370Z] {"timestamp":1774358010532,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
 [2026-03-24T13:13:32.370Z] {"timestamp":1774358010539,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-03-24T13:13:32.370Z] {"timestamp":1774358010540,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
+[2026-03-24T13:59:51.671Z] {"timestamp":1774360789667,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T13:59:51.671Z] {"timestamp":1774360789680,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T13:59:51.671Z] {"timestamp":1774360789708,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T14:00:17.878Z] {"timestamp":1774360817707,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T14:00:17.878Z] {"timestamp":1774360817724,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T14:00:17.878Z] {"timestamp":1774360817801,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T14:00:46.354Z] {"timestamp":1774360844397,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T14:00:46.354Z] {"timestamp":1774360844446,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T14:00:46.354Z] {"timestamp":1774360844494,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T14:18:37.340Z] {"timestamp":1774361857521,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-24T15:10:26.483Z] {"timestamp":1774365023884,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:10:26.483Z] {"timestamp":1774365024059,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:10:27.162Z] {"timestamp":1774365025154,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:10:27.162Z] {"timestamp":1774365025186,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:10:27.162Z] {"timestamp":1774365025554,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T15:24:43.822Z] {"timestamp":1774365881813,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:24:43.822Z] {"timestamp":1774365881817,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:24:43.822Z] {"timestamp":1774365881843,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T15:26:46.404Z] {"timestamp":1774366006382,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-24T15:26:49.215Z] {"timestamp":1774366006793,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:26:49.215Z] {"timestamp":1774366006802,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:26:49.215Z] {"timestamp":1774366006993,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T15:29:01.221Z] {"timestamp":1774366083617,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-24T15:29:06.448Z] {"timestamp":1774366144342,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:29:06.448Z] {"timestamp":1774366144672,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:29:10.169Z] {"timestamp":1774366148166,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:29:10.169Z] {"timestamp":1774366148180,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:41:33.932Z] {"timestamp":1774366891921,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:41:33.932Z] {"timestamp":1774366891924,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:41:33.932Z] {"timestamp":1774366891952,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364832,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364832,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364866,"level":"DEBUG","args":["[vite]","hot updated: /src/components/AnimatedSection.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364866,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364869,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ErrorBoundary.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364869,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364871,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364871,"level":"DEBUG","args":["[vite]","hot updated: /src/components/MountainDivider.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364874,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Particles.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364874,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364876,"level":"DEBUG","args":["[vite]","hot updated: /src/components/SlideIndicator.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364876,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364878,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/BusinessModelSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364878,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364880,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ClosingSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364880,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364882,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/CoverSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364882,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364884,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/FundingSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364884,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364888,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/GrowthSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364888,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364892,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364892,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364919,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/PainPointSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364919,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364921,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ProductSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364921,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364923,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ProgressSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364923,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364925,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/SolutionSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364925,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364927,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/TeamSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364927,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364928,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyNowSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364928,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364931,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyUsSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364931,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364934,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ui/button.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364934,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364943,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ui/card.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364943,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364967,"level":"DEBUG","args":["[vite]","hot updated: /src/components/ui/tooltip.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364967,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364977,"level":"DEBUG","args":["[vite]","invalidate /src/contexts/ThemeContext.tsx: Could not Fast Refresh (\"useTheme\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364977,"level":"DEBUG","args":["[vite]","hot updated: /src/contexts/ThemeContext.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364977,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyUsSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyNowSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/FundingSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367364988,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/BusinessModelSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365025,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyUsSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyNowSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/FundingSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/AnimatedSection.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/BusinessModelSlide.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365084,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365086,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365090,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-24T15:49:25.159Z] {"timestamp":1774367365090,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-24T15:49:27.186Z] {"timestamp":1774367365651,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:49:27.186Z] {"timestamp":1774367365656,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:49:27.186Z] {"timestamp":1774367365716,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-24T15:49:27.186Z] {"timestamp":1774367367170,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-24T15:49:30.155Z] {"timestamp":1774367367395,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-24T15:49:30.156Z] {"timestamp":1774367367400,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-24T15:49:30.156Z] {"timestamp":1774367367610,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}

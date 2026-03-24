@@ -1,18 +1,18 @@
 interface MountainDividerProps {
-  position?: 'top' | 'bottom';
+  position?: "top" | "bottom";
   color?: string;
   opacity?: number;
 }
 
 export default function MountainDivider({
-  position = 'bottom',
-  color = 'rgba(212, 168, 83, 0.08)',
+  position = "bottom",
+  color = "rgba(212, 168, 83, 0.08)",
   opacity = 1,
 }: MountainDividerProps) {
   return (
     <div
       className={`absolute left-0 right-0 pointer-events-none ${
-        position === 'bottom' ? 'bottom-0' : 'top-0 rotate-180'
+        position === "bottom" ? "bottom-0" : "top-0 rotate-180"
       }`}
       style={{ opacity }}
     >

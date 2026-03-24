@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback } from "react";
 
 export function useInView(threshold = 0.3) {
   const ref = useRef<HTMLDivElement>(null);
@@ -14,7 +14,7 @@ export function useInView(threshold = 0.3) {
           setIsInView(true);
         }
       },
-      { threshold }
+      { threshold },
     );
 
     observer.observe(element);
@@ -40,8 +40,8 @@ export function useActiveSlide() {
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
-    container.addEventListener('scroll', handleScroll, { passive: true });
-    return () => container.removeEventListener('scroll', handleScroll);
+    container.addEventListener("scroll", handleScroll, { passive: true });
+    return () => container.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
 
   const scrollToSlide = useCallback((index: number) => {
@@ -49,7 +49,7 @@ export function useActiveSlide() {
     if (!container) return;
     container.scrollTo({
       top: index * container.clientHeight,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }, []);
 

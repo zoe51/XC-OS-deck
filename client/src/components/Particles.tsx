@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 interface Particle {
   x: number;
@@ -18,7 +18,7 @@ export default function Particles() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     let animationId: number;
@@ -30,7 +30,7 @@ export default function Particles() {
       canvas.height = window.innerHeight;
     };
     resize();
-    window.addEventListener('resize', resize);
+    window.addEventListener("resize", resize);
 
     const createParticle = (): Particle => ({
       x: Math.random() * canvas.width,
@@ -58,11 +58,12 @@ export default function Particles() {
         p.life++;
 
         const lifeRatio = p.life / p.maxLife;
-        const alpha = lifeRatio < 0.1
-          ? lifeRatio * 10 * p.opacity
-          : lifeRatio > 0.9
-            ? (1 - lifeRatio) * 10 * p.opacity
-            : p.opacity;
+        const alpha =
+          lifeRatio < 0.1
+            ? lifeRatio * 10 * p.opacity
+            : lifeRatio > 0.9
+              ? (1 - lifeRatio) * 10 * p.opacity
+              : p.opacity;
 
         // Amber-gold glow
         ctx.beginPath();
@@ -76,7 +77,13 @@ export default function Particles() {
         ctx.fillStyle = `rgba(212, 168, 83, ${alpha * 0.15})`;
         ctx.fill();
 
-        if (p.life >= p.maxLife || p.x < -10 || p.x > canvas.width + 10 || p.y < -10 || p.y > canvas.height + 10) {
+        if (
+          p.life >= p.maxLife ||
+          p.x < -10 ||
+          p.x > canvas.width + 10 ||
+          p.y < -10 ||
+          p.y > canvas.height + 10
+        ) {
           particles[i] = createParticle();
         }
       });
@@ -106,7 +113,7 @@ export default function Particles() {
 
     return () => {
       cancelAnimationFrame(animationId);
-      window.removeEventListener('resize', resize);
+      window.removeEventListener("resize", resize);
     };
   }, []);
 
