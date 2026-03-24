@@ -9,7 +9,15 @@ const milestones = [
   {
     icon: <MapPin className="w-5 h-5" />,
     title: '4 个大型乡村社区空间已落成',
-    desc: '安吉、余村、黄山、武夷山线下空间运营中，杭州正在建设',
+    desc: '安吉、余村、黄山、武夷山线下空间运营中，杭州正在建设中',
+    status: 'done',
+    color: '#d4a853',
+  },
+
+  {
+    icon: <CheckCircle2 className="w-5 h-5" />,
+    title: '市场需求已获一线验证',
+    desc: '多个样板节点已提供完整真实数据，验证市场需求真实存在',
     status: 'done',
     color: '#d4a853',
   },
@@ -27,13 +35,7 @@ const milestones = [
     status: 'active',
     color: '#4a9e8e',
   },
-  {
-    icon: <CheckCircle2 className="w-5 h-5" />,
-    title: '市场需求已获一线验证',
-    desc: '多个样板节点已提供完整真实数据，验证市场需求真实存在',
-    status: 'done',
-    color: '#d4a853',
-  },
+
 ];
 
 export default function ProgressSlide() {
@@ -47,7 +49,7 @@ export default function ProgressSlide() {
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16">
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#4a9e8e] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            TRACTION
+            阶段进展
           </p>
         </AnimatedSection>
 

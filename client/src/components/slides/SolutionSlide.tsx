@@ -44,7 +44,7 @@ export default function SolutionSlide() {
         {/* Section label */}
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#4a9e8e] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            SOLUTION
+            我们的解决方案
           </p>
         </AnimatedSection>
 

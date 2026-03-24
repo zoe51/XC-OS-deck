@@ -29,7 +29,7 @@ const impacts = [
     icon: <TrendingUp className="w-6 h-6" />,
     title: '周边农民增收',
     stat: 30,
-    desc: '以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮营收增加',
+    desc: '以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮营收增加30%+',
     color: '#e8a87c',
   },
 ];
@@ -52,7 +52,7 @@ export default function ImpactSlide() {
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16">
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#e8a87c] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            SOCIAL IMPACT
+            心中有爱，眼里有光
           </p>
         </AnimatedSection>
 

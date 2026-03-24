@@ -33,7 +33,7 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
                 <span className="text-[#d4a853] text-sm font-bold" style={{ fontFamily: "'Space Grotesk', monospace" }}>OS</span>
               </div>
               <span className="text-[#e8e4df]/60 text-sm tracking-widest" style={{ fontFamily: "'Noto Sans SC', sans-serif" }}>
-                仓刀社 / XIANGCHUANG OS
+                仓刀社 / 乡创 OS
               </span>
             </div>
             <span className="text-[#e8e4df]/40 text-xs tracking-wider" style={{ fontFamily: "'Space Grotesk', monospace" }}>
@@ -46,7 +46,7 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
         <div className="flex-1 flex flex-col justify-center max-w-4xl">
           <AnimatedSection animation="slide-up" delay={0.4}>
             <p className="text-[#d4a853] text-sm md:text-base tracking-[0.3em] mb-6" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-              COMMUNITY INTELLIGENT OS
+              乡创OS
             </p>
           </AnimatedSection>
 
@@ -55,15 +55,15 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
               className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
               style={{ fontFamily: "'Noto Serif SC', serif", color: '#e8e4df' }}
             >
-              中国乡村的
+              为中国乡创空间打造的
               <br />
-              <span className="gradient-text-amber">AI 操作系统</span>
+              <span className="gradient-text-amber">AI 原生运营操作系统</span>
             </h1>
           </AnimatedSection>
 
           <AnimatedSection animation="slide-up" delay={0.8}>
             <p className="text-lg md:text-xl text-[#e8e4df]/70 max-w-2xl leading-relaxed" style={{ fontFamily: "'Noto Sans SC', sans-serif" }}>
-              通过 SaaS + AI Agent + 智能硬件节点 + 运营网络，
+              通过 SaaS + AI Agent + 智能硬件节点 + 社区运营网络，
               <br className="hidden md:block" />
               构建乡村创业与资源协作的基础设施
             </p>

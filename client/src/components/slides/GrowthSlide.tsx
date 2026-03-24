@@ -48,7 +48,7 @@ export default function GrowthSlide() {
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16">
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            GROWTH PATH
+            增长路径
           </p>
         </AnimatedSection>
 
@@ -74,11 +74,10 @@ export default function GrowthSlide() {
               {stages.map((s, i) => (
                 <div
                   key={i}
-                  className={`rounded-lg p-5 transition-all duration-500 hover:translate-y-[-4px] ${
-                    s.active
+                  className={`rounded-lg p-5 transition-all duration-500 hover:translate-y-[-4px] ${s.active
                       ? 'border-2 border-[#d4a853]/40'
                       : 'border border-[#e8e4df]/8'
-                  }`}
+                    }`}
                   style={{
                     background: s.active
                       ? 'linear-gradient(180deg, rgba(212,168,83,0.08) 0%, rgba(10,15,26,0.9) 100%)'

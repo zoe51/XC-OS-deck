@@ -55,7 +55,7 @@ export default function WhyUsSlide() {
         <div className="lg:w-1/2 flex flex-col justify-center">
           <AnimatedSection animation="slide-up" delay={0.1}>
             <p className="text-[#4a9e8e] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-              COMPETITIVE MOAT
+              一个不可被复制的团队
             </p>
           </AnimatedSection>
 
@@ -66,7 +66,7 @@ export default function WhyUsSlide() {
             >
               为什么只有
               <span className="gradient-text-teal">我们</span>
-              可以做
+              可以做到
             </h2>
           </AnimatedSection>
 

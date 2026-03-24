@@ -52,7 +52,7 @@ export default function ProductSlide() {
         <div className="lg:w-1/2 flex flex-col justify-center">
           <AnimatedSection animation="slide-up" delay={0.1}>
             <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-              PRODUCT ARCHITECTURE
+              产品架构
             </p>
           </AnimatedSection>
 

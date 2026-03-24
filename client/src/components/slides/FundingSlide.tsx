@@ -30,8 +30,8 @@ const proofs = [
   {
     icon: <Network className="w-5 h-5" />,
     num: '03',
-    title: '网络效应正在形成',
-    desc: '创业资源网络、AI 数据网络、产业合作网络——三条护城河随节点数量同步生长',
+    title: '形成网络化运营效应，实现客户带动客户的自增长飞轮',
+    desc: '创业资源网络、AI 数据网络、产业协同网络三重护城河，随节点扩张同步强化',
     color: '#e8a87c',
   },
 ];
@@ -47,7 +47,7 @@ export default function FundingSlide() {
           <div className="lg:w-2/5">
             <AnimatedSection animation="slide-up" delay={0.1}>
               <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-                FUNDRAISING
+                融资计划
               </p>
             </AnimatedSection>
 

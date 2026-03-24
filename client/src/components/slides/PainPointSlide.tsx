@@ -38,7 +38,7 @@ export default function PainPointSlide() {
         <div className="lg:w-2/5 flex flex-col justify-center">
           <AnimatedSection animation="slide-up" delay={0.1}>
             <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-              PAIN POINTS
+              行业痛点
             </p>
           </AnimatedSection>
 

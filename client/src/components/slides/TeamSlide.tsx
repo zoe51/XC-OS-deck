@@ -9,30 +9,30 @@ const team = [
   {
     name: '许崧',
     role: '运营负责人',
-    bg: ['DN 数字游民中国创始人', '安吉、余村、黄山、武夷山、杭州等多地空间运营总负责人'],
+    bg: ['DN 数字游民中国创始人', '安吉、余村、黄山、武夷山、杭州等多地空间运营总负责人', '安吉青创学院副院长'],
     color: '#d4a853',
-    initials: 'XS',
+    initials: 'CEO',
   },
   {
     name: '五一',
     role: '产品负责人',
-    bg: ['前蚂蚁金服产品经理', '普华永道 AI 系统设计师', '爱丁堡大学硕士'],
+    bg: ['杭州创社主理人', '前蚂蚁金服产品经理、PwC-AI 设计师', '爱丁堡大学硕士'],
     color: '#4a9e8e',
-    initials: 'WY',
+    initials: 'CPO',
   },
   {
     name: '屈子',
     role: '技术负责人',
     bg: ['前华为、阿里巴巴技术专家', '10 年+ 大型企业级系统全栈研发经验'],
     color: '#e8a87c',
-    initials: 'QZ',
+    initials: 'CTO',
   },
   {
     name: '艾因',
     role: '智能体负责人',
-    bg: ['前招商银行风控专家', '百度人工智能工程师', '负责核心 AI 能力建设'],
+    bg: ['前招商银行风控专家', '百度核心岗人工智能工程师', '负责核心 AI 能力建设'],
     color: '#8b9dc3',
-    initials: 'AY',
+    initials: 'AI',
   },
 ];
 
@@ -47,7 +47,7 @@ export default function TeamSlide() {
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16">
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#4a9e8e] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            CORE TEAM
+            创始人及团队
           </p>
         </AnimatedSection>
 

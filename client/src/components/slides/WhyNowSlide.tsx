@@ -22,7 +22,7 @@ export default function WhyNowSlide() {
   const reasons = [
     {
       icon: <Globe className="w-6 h-6" />,
-      title: '国情条件成熟',
+      title: '乡村闲置空间需求明确',
       stat: 50,
       statSuffix: '万+',
       statLabel: '中国行政村',
@@ -49,7 +49,7 @@ export default function WhyNowSlide() {
     },
     {
       icon: <Crosshair className="w-6 h-6" />,
-      title: '市场空白竞争蓝海',
+      title: '行业早期无头部竞争者',
       stat: 0,
       statSuffix: '',
       statLabel: '系统性平台玩家',
@@ -68,7 +68,7 @@ export default function WhyNowSlide() {
       <div className="relative z-10 h-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16">
         <AnimatedSection animation="slide-up" delay={0.1}>
           <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-            TIMING
+            时机窗口
           </p>
         </AnimatedSection>
 
@@ -94,7 +94,7 @@ export default function WhyNowSlide() {
                 <div className="mb-3">
                   <div className="text-3xl font-bold mb-0.5" style={{ color: r.color, fontFamily: "'Space Grotesk', monospace" }}>
                     {r.stat > 0 ? <StatNumber value={r.stat} suffix={r.statSuffix} isActive={isInView} /> : (
-                      <span>{r.statLabel === '十四五规划支持' ? '十四五' : r.statLabel === '系统性平台玩家' ? '空白' : '0'}</span>
+                      <span>{r.statLabel === '十四五规划支持' ? '国情政策' : r.statLabel === '系统性平台玩家' ? '蓝海' : '0'}</span>
                     )}
                   </div>
                   <p className="text-[#e8e4df]/40 text-xs" style={{ fontFamily: "'Noto Sans SC', sans-serif" }}>{r.statLabel}</p>

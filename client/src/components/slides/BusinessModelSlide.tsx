@@ -24,7 +24,7 @@ const revenueStreams = [
   {
     icon: <Bot className="w-5 h-5" />,
     name: '智能体接口服务',
-    content: 'AI 工作流：客服问答、内容生成等',
+    content: 'AI 工作流：客服问答、内容生成、资源匹配等',
     price: '约 5 万元起/年/空间',
     color: '#4a9e8e',
     width: '75%',
@@ -32,16 +32,16 @@ const revenueStreams = [
   {
     icon: <Monitor className="w-5 h-5" />,
     name: '硬件系统',
-    content: '智能大屏、门禁终端、空间设备',
-    price: '后期叠加合作渠道',
+    content: '智能大屏、门禁终端、空间设备等实现空间无人值守',
+    price: '后期叠加品牌合作渠道',
     color: '#e8a87c',
     width: '50%',
   },
   {
     icon: <Briefcase className="w-5 h-5" />,
-    name: '产业服务',
-    content: '创业孵化、品牌合作、产业资源对接',
-    price: '后期叠加合作渠道',
+    name: '产业咨询和连接服务',
+    content: '运营咨询、创业孵化、品牌合作、产业资源对接',
+    price: '和地方政府以及政策联动',
     color: '#8b9dc3',
     width: '35%',
   },
@@ -58,7 +58,7 @@ export default function BusinessModelSlide() {
           <div className="lg:w-2/5">
             <AnimatedSection animation="slide-up" delay={0.1}>
               <p className="text-[#d4a853] text-xs tracking-[0.3em] mb-4" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-                BUSINESS MODEL
+                商业模型
               </p>
             </AnimatedSection>
 

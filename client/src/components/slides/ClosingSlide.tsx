@@ -28,7 +28,7 @@ export default function ClosingSlide() {
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-8 md:px-16 lg:px-24 py-16 text-center">
         <AnimatedSection animation="fade-in" delay={0.2}>
           <div className="w-16 h-16 rounded-lg border border-[#d4a853]/30 flex items-center justify-center mb-8 mx-auto">
-            <span className="text-[#d4a853] text-2xl font-bold" style={{ fontFamily: "'Space Grotesk', monospace" }}>OS</span>
+            <span className="text-[#d4a853] text-sm font-bold" style={{ fontFamily: "'Noto Sans SC', sans-serif" }}>仓刀</span>
           </div>
         </AnimatedSection>
 
@@ -38,7 +38,7 @@ export default function ClosingSlide() {
             style={{ fontFamily: "'Noto Serif SC', serif" }}
           >
             <span className="text-[#e8e4df]">"</span>
-            <span className="gradient-text-amber">中国乡村的 AI 操作系统</span>
+            <span className="gradient-text-amber">中国乡村AI原生运营操作系统</span>
             <span className="text-[#e8e4df]">"</span>
           </h2>
         </AnimatedSection>
@@ -58,7 +58,7 @@ export default function ClosingSlide() {
           <div className="flex flex-col items-center gap-4">
             <div className="h-px w-16 bg-gradient-to-r from-transparent via-[#d4a853]/40 to-transparent" />
             <p className="text-[#e8e4df]/30 text-xs tracking-[0.3em]" style={{ fontFamily: "'Space Grotesk', monospace" }}>
-              XIANGCHUANG OS — SEED ROUND 2025
+              仓刀乡创 OS — 商业计划书 2026
             </p>
           </div>
         </AnimatedSection>
