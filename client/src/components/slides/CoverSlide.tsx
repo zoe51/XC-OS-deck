@@ -48,7 +48,7 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
               className="text-[#e8e4df]/40 text-xs tracking-wider"
               style={{ fontFamily: "'Space Grotesk', monospace" }}
             >
-              SEED ROUND 2025
+              SEED ROUND 2026
             </span>
           </div>
         </AnimatedSection>

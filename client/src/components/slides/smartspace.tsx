@@ -28,7 +28,7 @@ const smartSpaceFeatures = [
 
 export default function SlideSmartSpace() {
   return (
-    <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="snap-section relative w-full h-full flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-[#030308]" />
 
       <motion.div
@@ -47,11 +47,17 @@ export default function SlideSmartSpace() {
 
       <div className="relative z-10 w-full max-w-6xl px-8">
         <AnimatedText className="mb-12 text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-[#10b981] mb-4 font-medium">
-            基础运营优化方案
+          <p
+            className="text-xs uppercase tracking-[0.3em] text-[#10b981] mb-4"
+            style={{ fontFamily: "'Space Grotesk', monospace" }}
+          >
+            线下空间运营
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-white mb-3">
-            空间自治 + 信息智能切换
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-3"
+            style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
+          >
+            空间设备自治 + 信息智能切换
           </h2>
           <p className="text-white/40 text-lg">物理空间与数字智能的深度融合</p>
         </AnimatedText>

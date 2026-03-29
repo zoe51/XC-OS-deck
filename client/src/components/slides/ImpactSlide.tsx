@@ -27,9 +27,9 @@ const impacts = [
   },
   {
     icon: <TrendingUp className="w-6 h-6" />,
-    title: "周边农民增收",
+    title: "周边商户增收",
     
-    desc: "以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮营收增加30%以上",
+    desc: "以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮商户营收增加30%以上",
     color: "#e8a87c",
   },
 ];
@@ -43,13 +43,9 @@ export default function ImpactSlide() {
       className="snap-section relative grain-overlay"
       style={{ background: "#0a0f1a" }}
     >
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0">
-        <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310519663468040496/ZvtLcmbVsxknwMtEAQho7F/team-vision-PiVJqHKiG3DtdQn8ZxR6Us.webp"
-          alt="乡村愿景"
-          className="w-full h-full object-cover opacity-20"
-        />
+        
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f1a]/95 via-[#0a0f1a]/85 to-[#0a0f1a]/70" />
       </div>
 
@@ -120,18 +116,7 @@ export default function ImpactSlide() {
                 >
                   {impact.title}
                 </h3>
-                {impact.stat && (
-                  <div
-                    className="text-3xl font-bold mb-2"
-                    style={{
-                      color: impact.color,
-                      fontFamily: "'Space Grotesk', monospace",
-                    }}
-                  >
-                    <Counter value={impact.stat} isActive={isInView} />
-                    %+
-                  </div>
-                )}
+
                 <p
                   className="text-[#e8e4df]/55 text-sm leading-relaxed"
                   style={{ fontFamily: "'Noto Sans SC', sans-serif" }}

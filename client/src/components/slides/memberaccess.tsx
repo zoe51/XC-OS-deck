@@ -13,7 +13,7 @@ const features = [
 
 export default function SlideMemberAccess() {
   return (
-    <div className="relative w-full h-full flex items-center overflow-hidden">
+    <div className="snap-section relative w-full h-full flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#050510] via-[#080818] to-[#050510]" />
       <div className="absolute top-20 right-20 w-80 h-80 bg-[#00d4ff]/5 rounded-full blur-[120px]" />
       <div className="absolute bottom-20 left-40 w-64 h-64 bg-[#7c3aed]/5 rounded-full blur-[100px]" />
@@ -23,12 +23,18 @@ export default function SlideMemberAccess() {
           {/* Left: Content */}
           <div>
             <AnimatedText>
-              <p className="text-sm uppercase tracking-[0.3em] text-[#00d4ff] mb-4 font-medium">
-                基础运营优化方案
+              <p
+                className="text-xs uppercase tracking-[0.3em] text-[#00d4ff] mb-4"
+                style={{ fontFamily: "'Space Grotesk', monospace" }}
+              >
+                会员身份管理
               </p>
             </AnimatedText>
             <AnimatedText delay={0.1}>
-              <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-3">
+              <h2
+                className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-3"
+                style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
+              >
                 会员预约&
                 <br />
                 <span style={{ color: "#00d4ff" }}>智能准入</span>

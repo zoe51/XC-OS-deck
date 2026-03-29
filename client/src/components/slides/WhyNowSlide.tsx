@@ -126,7 +126,7 @@ export default function WhyNowSlide() {
                     {r.title === "乡镇公共空间需求明确" ? (
                       "需求已验证"
                     ) : r.title === "AI 能力成熟且成本可控" ? (
-                      "AI成熟可控"
+                      "AI成本可控"
                     ) : r.stat > 0 ? (
                       <StatNumber
                         value={r.stat}

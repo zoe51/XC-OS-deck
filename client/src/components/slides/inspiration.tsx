@@ -18,7 +18,6 @@ const floatingTags = [
   // Extra ambient tags
   { label: "#AI创业", color: "#00d4ff", x: -400, y: -80, size: "sm", delay: 0.4 },
   { label: "#乡村振兴", color: "#10b981", x: 400, y: -60, size: "sm", delay: 0.7 },
-  { label: "#青年创新", color: "#7c3aed", x: -100, y: -300, size: "sm", delay: 1.0 },
   { label: "#政策速递", color: "#f59e0b", x: 140, y: 280, size: "sm", delay: 1.3 },
   { label: "#赛道分析", color: "#ef4444", x: -360, y: 180, size: "sm", delay: 1.6 },
   { label: "#网红项目", color: "#e11d48", x: 380, y: 180, size: "sm", delay: 0.2 },
@@ -33,7 +32,7 @@ const sizeMap = {
 
 export default function SlideMemberInspiration() {
   return (
-    <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="snap-section relative w-full h-full flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#050510] via-[#0a0818] to-[#050510]" />
       <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-[#7c3aed]/5 rounded-full blur-[150px]" />
       <div className="absolute bottom-1/3 right-1/3 w-80 h-80 bg-[#00d4ff]/5 rounded-full blur-[120px]" />
@@ -94,15 +93,21 @@ export default function SlideMemberInspiration() {
       {/* Center Content */}
       <div className="relative z-10 w-full max-w-2xl px-8 text-center">
         <AnimatedText>
-          <p className="text-sm uppercase tracking-[0.3em] text-[#7c3aed] mb-4 font-medium">
-            内容运营优化方案
+          <p
+            className="text-xs uppercase tracking-[0.3em] text-[#7c3aed] mb-4"
+            style={{ fontFamily: "'Space Grotesk', monospace" }}
+          >
+            线上内容运营
           </p>
         </AnimatedText>
 
         
 
         <AnimatedText delay={0.15}>
-          <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-4">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4"
+            style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
+          >
             创业灵感
             <span style={{ color: "#7c3aed" }}>推送器</span>
           </h2>

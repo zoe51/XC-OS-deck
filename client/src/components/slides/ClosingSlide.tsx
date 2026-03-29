@@ -12,6 +12,17 @@ export default function ClosingSlide() {
     >
       {/* Background with gradient orbs */}
       <div className="absolute inset-0 overflow-hidden">
+        <video
+          src="https://51-1327029614.cos.ap-shanghai.myqcloud.com/%E9%9D%92%E7%A6%BE/DNA%E5%8A%A8%E6%95%88.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className="w-full h-full object-cover opacity-30"
+        />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/30" />
         <div
           className="absolute top-1/3 left-1/3 w-96 h-96 rounded-full blur-[150px] opacity-10"
           style={{
@@ -89,7 +100,7 @@ export default function ClosingSlide() {
               className="text-[#e8e4df]/30 text-xs tracking-[0.3em]"
               style={{ fontFamily: "'Space Grotesk', monospace" }}
             >
-              仓刀乡创 OS — 商业计划书 2026
+              联系方式 — 微信（xusong1969）
             </p>
           </div>
         </AnimatedSection>

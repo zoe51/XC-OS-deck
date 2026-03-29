@@ -38,19 +38,25 @@ const operationsData = [
 
 export default function SlideOperations() {
   return (
-    <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="snap-section relative w-full h-full flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-[#050510] via-[#0a0a1a] to-[#080520]" />
       <div className="absolute bottom-20 left-20 w-80 h-80 bg-[#7c3aed]/5 rounded-full blur-[120px]" />
 
       <div className="relative z-10 w-full max-w-6xl px-8">
         <AnimatedText className="mb-12 text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-[#7c3aed] mb-4 font-medium">
-            Operations Platform
+          <p
+            className="text-xs uppercase tracking-[0.3em] text-[#7c3aed] mb-4"
+            style={{ fontFamily: "'Space Grotesk', monospace" }}
+          >
+            增长运营
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-white mb-3">
-            社区运营智能体系统
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3"
+            style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
+          >
+            智能活动策划和数据增长体系
           </h2>
-          <p className="text-white/40 text-lg">赋能运营团队的智能工具集</p>
+          <p className="text-white/40 text-lg">赋能增长的智能工具集</p>
         </AnimatedText>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

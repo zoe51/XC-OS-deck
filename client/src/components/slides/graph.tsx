@@ -13,7 +13,7 @@ const features = [
 
 export default function SlideMemberAI() {
   return (
-    <div className="relative w-full h-full flex items-center overflow-hidden">
+    <div className="snap-section relative w-full h-full flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-bl from-[#050510] via-[#080818] to-[#050510]" />
       <div className="absolute bottom-20 left-20 w-80 h-80 bg-[#10b981]/5 rounded-full blur-[120px]" />
       <div className="absolute top-20 right-40 w-64 h-64 bg-[#00d4ff]/5 rounded-full blur-[100px]" />
@@ -44,12 +44,18 @@ export default function SlideMemberAI() {
           {/* Right: Content */}
           <div className="order-1 lg:order-2">
             <AnimatedText>
-              <p className="text-sm uppercase tracking-[0.3em] text-[#10b981] mb-4 font-medium">
-                基础运营优化方案
+              <p
+                className="text-xs uppercase tracking-[0.3em] text-[#10b981] mb-4"
+                style={{ fontFamily: "'Space Grotesk', monospace" }}
+              >
+                线下内容运营
               </p>
             </AnimatedText>
             <AnimatedText delay={0.1}>
-              <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-3">
+              <h2
+                className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-3"
+                style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
+              >
                 AI创业图谱
                 <br />
                 与<span style={{ color: "#10b981" }}>自助问答</span>

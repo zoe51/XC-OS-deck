@@ -70,7 +70,7 @@ export default function ProductSlide() {
               className="text-[#d4a853] text-xs tracking-[0.3em] mb-4"
               style={{ fontFamily: "'Space Grotesk', monospace" }}
             >
-              产品架构
+              系统架构
             </p>
           </AnimatedSection>
 
@@ -79,7 +79,7 @@ export default function ProductSlide() {
               className="text-3xl md:text-4xl font-bold leading-tight mb-3"
               style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
             >
-              三层产品架构
+              三层系统架构
             </h2>
           </AnimatedSection>
 

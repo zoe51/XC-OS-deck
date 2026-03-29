@@ -20,18 +20,28 @@ import TeamSlide from "@/components/slides/TeamSlide";
 import FundingSlide from "@/components/slides/FundingSlide";
 import ImpactSlide from "@/components/slides/ImpactSlide";
 import ClosingSlide from "@/components/slides/ClosingSlide";
+import SlideSmartSpace from "@/components/slides/smartspace";
+import SlideMemberAccess from "@/components/slides/memberaccess";
+import SlideMemberAI from "@/components/slides/graph";
+import SlideMemberInspiration from "@/components/slides/inspiration";
+import SlideData from "@/components/slides/data";
 
 const slideLabels = [
   "封面",
   "痛点",
   "方案",
+  "空间自治",
+  "会员准入",
+  "AI图谱",
+  "灵感推送",
+  "数据洞察",
   "架构",
   "窗口",
+  "团队",
   "优势",
   "进展",
   "模式",
   "增长",
-  "团队",
   "融资",
   "效益",
   "愿景",
@@ -79,13 +89,18 @@ export default function Home() {
         <CoverSlide onNext={handleNextFromCover} />
         <PainPointSlide />
         <SolutionSlide />
+        <SlideSmartSpace />
+        <SlideMemberAccess />
+        <SlideMemberAI />
+        <SlideMemberInspiration />
+        <SlideData />
         <ProductSlide />
         <WhyNowSlide />
+        <TeamSlide />
         <WhyUsSlide />
         <ProgressSlide />
         <BusinessModelSlide />
         <GrowthSlide />
-        <TeamSlide />
         <FundingSlide />
         <ImpactSlide />
         <ClosingSlide />
