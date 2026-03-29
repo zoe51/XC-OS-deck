@@ -31,11 +31,11 @@ export default function WhyNowSlide() {
   const reasons = [
     {
       icon: <Globe className="w-6 h-6" />,
-      title: "乡村闲置空间需求明确",
+      title: "乡镇公共空间需求明确",
       stat: 50,
       statSuffix: "万+",
-      statLabel: "中国行政村",
-      desc: "中国拥有超 50 万个行政村，其中 5,000–20,000 个高潜力村庄构成核心可服务市场，乡村数字化转型需求已到爆发期",
+      statLabel: "行政村与县镇公共空间",
+      desc: "中国拥有2万县镇，超 50 万个行政村，其中 5,000–20,000 个高潜力村镇构成核心可服务市场，乡镇数字化转型需求已到爆发期",
       color: "#d4a853",
     },
     {
@@ -44,7 +44,7 @@ export default function WhyNowSlide() {
       stat: 90,
       statSuffix: "%+",
       statLabel: "API 成本降幅",
-      desc: "大模型 API 成本降幅超 90%，已降至乡村场景可承受水平，智能体技术进入规模化落地窗口",
+      desc: "大模型 API 成本降幅超 90%，已降至乡镇场景可承受水平，智能体技术进入规模化落地窗口",
       color: "#4a9e8e",
     },
     {
@@ -123,7 +123,11 @@ export default function WhyNowSlide() {
                       fontFamily: "'Space Grotesk', monospace",
                     }}
                   >
-                    {r.stat > 0 ? (
+                    {r.title === "乡镇公共空间需求明确" ? (
+                      "需求已验证"
+                    ) : r.title === "AI 能力成熟且成本可控" ? (
+                      "AI成熟可控"
+                    ) : r.stat > 0 ? (
                       <StatNumber
                         value={r.stat}
                         suffix={r.statSuffix}
@@ -132,7 +136,7 @@ export default function WhyNowSlide() {
                     ) : (
                       <span>
                         {r.statLabel === "十四五规划支持"
-                          ? "国情政策"
+                          ? "顺应国情"
                           : r.statLabel === "系统性平台玩家"
                             ? "蓝海"
                             : "0"}

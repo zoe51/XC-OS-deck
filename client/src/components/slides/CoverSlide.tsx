@@ -69,7 +69,7 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
               className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
               style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
             >
-              为中国乡创空间打造的
+              打造乡镇公共空间的
               <br />
               <span className="gradient-text-amber">AI 原生运营操作系统</span>
             </h1>
@@ -82,7 +82,7 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
             >
               通过 SaaS + AI Agent + 智能硬件节点 + 社区运营网络，
               <br className="hidden md:block" />
-              构建乡村创业与资源协作的基础设施
+              构建乡镇创业与资源协作的基础设施
             </p>
           </AnimatedSection>
         </div>

@@ -28,8 +28,8 @@ const impacts = [
   {
     icon: <TrendingUp className="w-6 h-6" />,
     title: "周边农民增收",
-    stat: 30,
-    desc: "以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮营收增加30%+",
+    
+    desc: "以 DN 黄山、DN 武夷山为例，社区空间落成后周边餐饮营收增加30%以上",
     color: "#e8a87c",
   },
 ];
@@ -80,6 +80,19 @@ export default function ImpactSlide() {
             </span>
           </h2>
         </AnimatedSection>
+        <AnimatedSection animation="slide-up" delay={0.35}>
+                    <p
+                      className="text-[#e8e4df]/65 text-base leading-relaxed mb-6"
+                      style={{ fontFamily: "'Noto Sans SC', sans-serif" }}
+                    >
+                      乡创OS让公共空间从物理空间进化为一个
+                      <strong className="text-[#d4a853]">
+                        可感知、可干预、持续生长的创新生态体。
+                      </strong>
+                      <br />
+                      这不止是一套效率工具，更是乡镇公共社区的创新样本，为政策制定、人才成长与创业生态研究提供真实可信的一手依据。
+                    </p>
+                  </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl">
           {impacts.map((impact, i) => (

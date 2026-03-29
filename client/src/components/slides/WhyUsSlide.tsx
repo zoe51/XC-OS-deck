@@ -53,7 +53,7 @@ export default function WhyUsSlide() {
                   },
                   {
                     icon: <Network className="w-4 h-4" />,
-                    value: 5,
+                    value: 6,
                     label: "覆盖城市",
                     suffix: "座",
                   },

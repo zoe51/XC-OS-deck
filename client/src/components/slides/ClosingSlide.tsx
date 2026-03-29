@@ -65,7 +65,7 @@ export default function ClosingSlide() {
           >
             <span className="text-[#e8e4df]">"</span>
             <span className="gradient-text-amber">
-              中国乡村AI原生运营操作系统
+              中国乡镇AI原生运营操作系统
             </span>
             <span className="text-[#e8e4df]">"</span>
           </h2>

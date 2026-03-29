@@ -65,11 +65,11 @@ export default function PainPointSlide() {
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6"
               style={{ fontFamily: "'Noto Serif SC', serif", color: "#e8e4df" }}
             >
-              乡村空间运营
+              乡镇空间运营
               <br />
-              <span className="gradient-text-amber">难在事无巨细</span>
+              <span className="gradient-text-amber">难在事无巨细
               <br />
-              又捉襟见肘
+              又捉襟见肘</span>
             </h2>
           </AnimatedSection>
 

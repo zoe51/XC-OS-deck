@@ -22,7 +22,7 @@ const revenueStreams = [
   {
     icon: <Rocket className="w-5 h-5" />,
     name: "一次性系统部署服务",
-    content: "乡村空间智能运营系统",
+    content: "乡镇空间智能运营系统",
     price: "约 20 万元/空间",
     color: "#d4a853",
     width: "100%",
