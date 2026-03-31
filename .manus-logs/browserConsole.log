@@ -802,3 +802,7 @@
 [2026-03-29T13:53:33.014Z] {"timestamp":1774792411151,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ImpactSlide.tsx"],"stack":null}
 [2026-03-29T13:54:22.492Z] {"timestamp":1774792460566,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-03-29T13:54:22.492Z] {"timestamp":1774792460567,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/ClosingSlide.tsx"],"stack":null}
+[2026-03-29T13:57:57.861Z] {"timestamp":1774792675936,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-29T13:57:57.861Z] {"timestamp":1774792675936,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/CoverSlide.tsx"],"stack":null}
+[2026-03-29T13:57:57.861Z] {"timestamp":1774792676082,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-29T13:57:57.861Z] {"timestamp":1774792676082,"level":"DEBUG","args":["[vite]","hot updated: /src/components/slides/WhyNowSlide.tsx"],"stack":null}
