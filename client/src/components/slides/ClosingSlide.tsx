@@ -64,7 +64,7 @@ export default function ClosingSlide() {
               className="text-[#d4a853] text-sm font-bold"
               style={{ fontFamily: "'Noto Sans SC', sans-serif" }}
             >
-              仓刀
+              OS
             </span>
           </div>
         </AnimatedSection>

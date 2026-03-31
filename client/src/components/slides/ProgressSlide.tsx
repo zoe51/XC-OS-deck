@@ -13,13 +13,13 @@ const milestones = [
     status: "done",
     color: "#d4a853",
   },
-
   {
     icon: <CheckCircle2 className="w-5 h-5" />,
-    title: "市场需求已获一线验证",
-    desc: "多个样板节点已提供完整真实数据，验证市场需求真实存在",
+    title: "需求已验证，超过3个社区有明确采购意愿",
+    desc: "浙江磐安黄林坑村、四川金川县等空间客户已锁定需求，正在等待项目合作",
     status: "done",
     color: "#d4a853",
+    customers: ["浙江磐安黄林坑村", "四川金川县", "广东东源县糖巢社区", "更多意向社区洽谈中"],
   },
   {
     icon: <Handshake className="w-5 h-5" />,
@@ -104,7 +104,7 @@ export default function ProgressSlide() {
                   </div>
 
                   {/* Content */}
-                  <div className="glass-card rounded-lg p-5 flex-1 hover:translate-x-2 transition-transform duration-300">
+                  <div className={`glass-card rounded-lg p-5 flex-1 hover:translate-x-2 transition-transform duration-300 ${m.customers ? 'border-[#d4a853]/30' : ''}`}>
                     <div className="flex items-center gap-3 mb-2">
                       <h3
                         className="text-base font-semibold"
@@ -146,6 +146,24 @@ export default function ProgressSlide() {
                     >
                       {m.desc}
                     </p>
+                    {m.customers && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {m.customers.map((customer, idx) => (
+                          <div
+                            key={idx}
+                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs"
+                            style={{
+                              backgroundColor: idx === m.customers.length - 1 ? '#4a9e8e15' : '#d4a85310',
+                              border: `1px solid ${idx === m.customers.length - 1 ? '#4a9e8e30' : '#d4a85325'}`,
+                              color: idx === m.customers.length - 1 ? '#4a9e8e' : '#d4a853',
+                            }}
+                          >
+                            <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: idx === m.customers.length - 1 ? '#4a9e8e' : '#d4a853' }} />
+                            {customer}
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </AnimatedSection>

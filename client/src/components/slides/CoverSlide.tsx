@@ -34,14 +34,14 @@ export default function CoverSlide({ onNext }: CoverSlideProps) {
                   className="text-[#d4a853] text-sm font-bold"
                   style={{ fontFamily: "'Space Grotesk', monospace" }}
                 >
-                  OS
+                  L
                 </span>
               </div>
               <span
                 className="text-[#e8e4df]/60 text-sm tracking-widest"
                 style={{ fontFamily: "'Noto Sans SC', sans-serif" }}
               >
-                仓刀社 / 乡创 OS
+               Lovelace OS
               </span>
             </div>
             <span

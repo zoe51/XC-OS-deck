@@ -39,7 +39,7 @@ const revenueStreams = [
     icon: <Monitor className="w-5 h-5" />,
     name: "硬件系统",
     content: "智能大屏、门禁终端、空间设备等实现空间无人值守",
-    price: "后期叠加品牌合作渠道",
+    price: "自研空间智能硬件协议",
     color: "#e8a87c",
     width: "50%",
   },
@@ -47,7 +47,7 @@ const revenueStreams = [
     icon: <Briefcase className="w-5 h-5" />,
     name: "产业咨询和连接服务",
     content: "运营咨询、创业孵化、品牌合作、产业资源对接",
-    price: "和地方政府以及政策联动",
+    price: "与地方政策联动提供咨询和FA服务",
     color: "#8b9dc3",
     width: "35%",
   },
@@ -163,7 +163,7 @@ export default function BusinessModelSlide() {
                     {stream.icon}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between mb-1">
+                    <div className="flex items-start justify-between gap-4">
                       <h3
                         className="text-sm font-semibold"
                         style={{
@@ -173,15 +173,26 @@ export default function BusinessModelSlide() {
                       >
                         {stream.name}
                       </h3>
-                      <span
-                        className="text-xs text-[#e8e4df]/40 shrink-0 ml-2"
-                        style={{ fontFamily: "'Space Grotesk', monospace" }}
-                      >
-                        {stream.price}
-                      </span>
+                      <div className="text-right shrink-0">
+                        <span
+                          className="text-lg font-bold"
+                          style={{
+                            color: "#d4a853",
+                            fontFamily: "'Space Grotesk', monospace",
+                          }}
+                        >
+                          {stream.price.split('/')[0]}
+                        </span>
+                        <span
+                          className="text-xs text-[#e8e4df]/40 ml-1"
+                          style={{ fontFamily: "'Space Grotesk', monospace" }}
+                        >
+                          /{stream.price.split('/')[1]}
+                        </span>
+                      </div>
                     </div>
                     <p
-                      className="text-[#e8e4df]/50 text-xs"
+                      className="text-[#e8e4df]/50 text-xs mt-2"
                       style={{ fontFamily: "'Noto Sans SC', sans-serif" }}
                     >
                       {stream.content}
